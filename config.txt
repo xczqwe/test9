@@ -1,0 +1,27 @@
+{
+# 公众号配置
+# 公众号appId
+"app_id": "wxe456c9c05abe52c4",
+# 公众号appSecret
+"app_secret": "83b0c8caad46433f3fd4573d33bd6ed7",
+# 模板消息id
+"template_id": "0m4i_zFd51S9znqJZPyiDiBm1GPCTnORR7bXdzgcTYY",
+# 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
+"user": ["oX0xs5tntMIjI5TPHxiiDHXMWJDE"],
+ 
+# 信息配置
+# 和风天气apikey
+"weather_key": "78da103153874d179797cadcc0f3ef5c",
+# 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
+"region": "江西市",
+# 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
+"birthday1": {"name": "姗宝宝", "birthday": "1998-09-23"},
+# 生日2
+"birthday2": {"name": "你的宝宝", "birthday": "1997-07-13"},
+# 在一起的日子，格式同上，暂不不支持农历
+"love_date": "2022-7-10",
+# 金句中文，如果设25，则会显示这里的，如果为空，默认会读取金山的每日金句
+"note_ch": "努力奔跑总会遇见最美好的你 每天都要开开心心的 ！！！，生日快乐宝贝😘",
+# 金句英文
+"note_en": "Running hard will always meet the best. You should be happy every day! ! !,Happy birthday, baby."
+}
